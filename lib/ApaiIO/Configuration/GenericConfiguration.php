@@ -17,14 +17,12 @@
 
 namespace ApaiIO\Configuration;
 
-use ApaiIO\Configuration\Country;
-
 /**
  * A generic configurationclass
  *
  * @author Jan Eichhorn <exeu65@googlemail.com>
  */
-class GenericConfiguration implements ConfigurationInterface
+class GenericConfiguration extends BaseConfiguration implements ConfigurationInterface
 {
     /**
      * The country
